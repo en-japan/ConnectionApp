@@ -1,4 +1,4 @@
-package com.example.benedict.internetconnection;
+package com.example.benedict.webviewconnection;
 
 import android.os.Bundle;
 import android.util.Log;
