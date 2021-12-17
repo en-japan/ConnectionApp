@@ -9,7 +9,7 @@ import androidx.lifecycle.MutableLiveData;
 
 public class WebAppInterface {
 
-    public static String TAG = WebAppInterface.class.getSimpleName();
+    public final static String TAG = WebAppInterface.class.getSimpleName();
     private Context context;
     private MutableLiveData<String> liveText;
 

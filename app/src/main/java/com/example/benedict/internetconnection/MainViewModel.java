@@ -11,7 +11,7 @@ import androidx.lifecycle.MutableLiveData;
 
 public class MainViewModel extends AndroidViewModel {
 
-    private static final String TAG = MainViewModel.class.getSimpleName();
+    private final static String TAG = MainViewModel.class.getSimpleName();
     private WebAppInterface webAppInterface;
 
     public MainViewModel(Application application) {
