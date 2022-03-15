@@ -10,8 +10,8 @@ import androidx.lifecycle.MutableLiveData;
 public class WebAppInterface {
 
     public final static String TAG = WebAppInterface.class.getSimpleName();
-    private Context context;
-    private MutableLiveData<String> liveText;
+    private final Context context;
+    private final MutableLiveData<String> liveText;
 
     WebAppInterface(Context context) {
         this.context = context;
